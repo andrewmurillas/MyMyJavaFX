@@ -1,0 +1,16 @@
+.mybutton{
+	-fx-background-color: orange;
+	-fx-border-color: orange;
+	-fx-text-fill: white;
+}
+
+.mytitle{
+    /*-fx-font-family: "HipsterishFontNormal";*/
+    -fx-font-family: "waltograph42";
+    -fx-font-size: 36.0px;
+    src: url("../application/view/font/waltograph42.otf");
+}
+
+.mypane{
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
