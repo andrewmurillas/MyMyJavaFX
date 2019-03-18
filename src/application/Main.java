@@ -71,7 +71,7 @@ public class Main extends Application {
 			// adding fonts
 			scene.getStylesheets().add("http://fonts.googleapis.com/css?family=Shadows+Into+Light");
 			Font.loadFont(getClass().getResourceAsStream("../resources/fonts/HipsterishFontNormal.ttf"), 20);
-			Font.loadFont(getClass().getResourceAsStream("../resources/fonts/waltograph42.otf"), 20);
+			Font.loadFont(getClass().getResourceAsStream("../resources/fonts/Walter.ttf"), 20);
 
 			primaryStage.setWidth(700);
 			primaryStage.setHeight(600);
