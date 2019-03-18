@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.ColorAdjust?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -12,7 +11,6 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
 
 <AnchorPane minHeight="300.0" minWidth="500.0" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OneController">
    <children>
@@ -30,7 +28,7 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <ImageView fitHeight="240.0" fitWidth="444.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                  <ImageView fitHeight="198.0" fitWidth="544.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                      <image>
                         <Image url="@images/1200px-Walt_Disney_Pictures_Logo_2011.svg.png" />
                      </image>
@@ -39,16 +37,6 @@
                      </effect>
                   </ImageView>
                   <VBox alignment="CENTER" GridPane.columnIndex="1">
-                     <children>
-                        <Label alignment="CENTER" styleClass="mytitle" stylesheets="@../application.css" text="Disney" textFill="#f2e9e9">
-                           <VBox.margin>
-                              <Insets top="5.0" />
-                           </VBox.margin>
-                           <font>
-                              <Font size="24.0" />
-                           </font>
-                        </Label>
-                     </children>
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
